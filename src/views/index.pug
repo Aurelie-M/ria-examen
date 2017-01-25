@@ -1,0 +1,36 @@
+doctype html
+html( lang="fr" )
+    head
+        title Examen RIA - Quick
+
+        link( rel="stylesheet", href="/css/style.css" )/
+
+    body
+        div#app
+
+        	div(class="centerZone")
+
+        		h1 (class="titleOne") Examen RIA - Quick
+
+        		img(src="assets/burger.png", class="left")
+
+        		p(class="intro right") Sur cette page, vous pouvez lister les Quick qui se trouvent près de chez vous et voir leurs caractéristiques.
+
+        		button#button Voir la liste des Quick
+
+        		div(id="hidden", class="left")
+        			ul(class="list-quick")
+        				li(class="item-quick") 
+
+        		div(id="hidden", class="right")
+        			ul(class="list-info")
+        				li(class="item-info")
+        					h2(class="name") Quick: 
+        				li(class="item-info") Slug :
+        				li(class="item-info") 
+        					address(class="where") Address :
+        				li(class="item-info") Latitude :
+        				li(class="item-info") Longitude : 
+        				li(class="item-info") Heures d'ouverture :
+        				
+    script( src="/js/app.js" )
